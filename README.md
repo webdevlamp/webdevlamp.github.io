@@ -1,2 +1,0 @@
-webdevlamp.github.io
-====================
