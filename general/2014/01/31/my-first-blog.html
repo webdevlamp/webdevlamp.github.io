@@ -18,19 +18,28 @@
 				margin-top:0px!important;
 			}
 			
-			html, 
-			body {
-				height: 100%;
-			}
+        </style>
+        <style type="text/css">
 
-		  #wrap {
-			min-height: 100%;
-			height: auto !important;
-			height: 100%;
-			/* Negative indent footer by it's height */
-			margin: 0 auto -60px;
-		  }
+      /* Sticky footer styles
+      -------------------------------------------------- */
 
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
       #push,
       #footer {
         height: 60px;
@@ -48,18 +57,31 @@
           padding-right: 20px;
         }
       }
-        </style>
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      .container {
+        width: auto;
+        max-width: 680px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+    </style>
     </head>
     <body>
 		<div id="wrap">
-			<div class="container">
-				<div id="banner" class="page-header">
-					<div class="row">
-						<div class="col-lg-12">
-						<h1><a href="/">WebDevLamp'z Blog</a></h1>
-					</div>
-				</div>
-				<div class="container">
+		  <div class="container">
+			<div class="page-header">
+			  <h1><a href="/">WebDevLamp'z Blog</a></h1>
+			</div>
+		  </div>
+		  <div class="container">
 	<div class="row">
 		<h4 class="panel-title">Believe me it's my blog</h4>
 		<p>Hello This is mY fIrsT blog poST. AnD i aM Sooo haPPy tO bE onLine!!!</p>
@@ -68,13 +90,15 @@
 	</div>
 </div>
 
-			</div>
+		  <div id="push"></div>
 		</div>
+
 		<div id="footer">
 		  <div class="container">
 			<p class="muted credit">
 				<a href="https://github.com/webdevlamp">github.com/webdevlamp</a>
 				<a href="https://twitter.com/webdevlamp">twitter.com/webdevlamp</a></p>
+			</p>
 		  </div>
 		</div>
     </body>
